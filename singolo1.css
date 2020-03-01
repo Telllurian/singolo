@@ -139,8 +139,14 @@ h1 {
       margin: 0;
       width: 1020px;
       height: 595px;
-      background-color: #f06c64;
-      border-bottom: 5px solid #EA676B;
+.slider { 
+  padding: 0;
+  margin: 0;
+  width: 1020px;
+  height: 595px;
+  background-color: #f06c64;
+  position: relative;
+  border-bottom: 5px solid #EA676B;
 
 
   }
@@ -148,33 +154,32 @@ h1 {
   .iphone_Vertical {
 
     position: absolute;
-    top: 78px;
-    left: 432px;
-    
+    top: -17px;
+    left: 110px;
+        
   }
 
   .iphone_Horizontal {
 
     position: absolute;
-    top:  164px;
-    left: 682px;
-
+    top: 69px;
+    left: 360px;
   }
 
   .arrow_left { 
 
-    position: absolute;
-    top: 376px;
-    left: 364px;
-    cursor: pointer;
+  position: absolute;
+  top: 281px;
+  left: 42px;
+  cursor: pointer;
     
 }
 
   .arrow_right {
 
     position: absolute;
-    top: 376px;
-    left: 1286px;
+    top: 281px;
+    left: 964px;
     cursor: pointer;
 
   }
