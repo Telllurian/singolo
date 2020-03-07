@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'),
+  url('assets/fonts/lato-v16-latin-300.woff2') format('woff2'),
+  url('assets/fonts/lato-v16-latin-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+  url('assets/fonts/lato-v16-latin-regular.woff2') format('woff2'),
+  url('assets/fonts/lato-v16-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+  url('assets/fonts/lato-v16-latin-700.woff2') format('woff2'),
+  url('assets/fonts/lato-v16-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'),
+  url('assets/fonts/lato-v16-latin-900.woff2') format('woff2'),
+  url('assets/fonts/lato-v16-latin-900.woff') format('woff');
+}
+
+body {
+
+  padding: 0;
+  margin: 0; 
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lato", "Arial", sans-serif;
+
+    
+      
+}
+
+.get_a_quote_wrapper {
+
+height: 649px;
+background-color: #F06C64;
+border-bottom: 5px solid #EA676B;
+
+}
+
+h2.get_a_quote {
+
+  margin: 0;
+  padding: 60px 0px 0px 40px;
+  color: #F0D8D9;
+  font-size: 30px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 900;
+  
+}
+
+p.get_a_quote {
+
+  color: #F0D8D9;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 19px 1px 1px 40px;
+  line-height: 29px;
+  letter-spacing: 0.011em;
+  font-weight: 300;
+
+}
+
+form {
+
+  width: 619px;
+
+}
+
+.contact-form {
+
+  margin-top: 27px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input, textarea, button{ 
+
+  background-color: #D6564F;
+  border: none;
+  width: 619px;
+  height: 38px;
+  border-radius: 5px;
+  margin-top: 16px;
+  padding-bottom: 3px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  font-family: "Lato", "Arial", sans-serif;
+  
+}
+
+textarea {
+
+  resize: none;
+  width: 619px;
+  height: 202px;
+  padding-top: 11px;
+
+}
+
+::placeholder {
+
+color: #F48C8F;
+letter-spacing: 0.5px;
+font-size: 11px;
+
+}
+
+button {
+
+color:white;
+border: 1px solid #f0d8d9;
+transition: color 0.5s ease-out;
+}
+
+button:hover {
+
+  background-color: #f0d8d9;
+  color: rgb(167, 26, 18);
+  border: none;
+  cursor: pointer;
+
+}
+
+.contact_information
+{
+
+margin: 0px 0px 0px 0px;
+padding: 14px 0px 0px 21px;
+
+}
+
+.contact_information h3{
+
+color: #F0D8D9;
+font-size: 18px;
+margin: 0;
+padding: 0;
+font-weight: 800;
+
+}
+
+.contact_information p{
+
+  padding-right: 33px;
+  margin: 0;
+  font-size: 12px;
+  color: #F0D8D9;
+  margin-top: 8px;
+  line-height: 22px;
+  letter-spacing: 0px;
+
+}
+
+.contact_information .address{
+
+  color: #F0D8D9;
+  background: url(assets/location.png) no-repeat 3px 25px;
+  padding: 19px 0px 0px 23px;
+  margin: 0;
+}
+
+.contact_information .phone{
+
+  display: block;
+  background: url(assets/phone_contact.png) no-repeat 1px 5px;
+  color: #F0D8D9;
+  font-size: 12px;
+  padding: 3px 0px 0px 23px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.contact_information .email{
+
+  display: block;
+  background: url(assets/mail.png) no-repeat 0px 12px;
+  text-decoration: none;
+  color: #F0D8D9;
+  font-size: 12px;
+  margin: 0px;
+  padding: 7px 0px 0px 23px;
+  letter-spacing: -0.2px;
+
+
+}
+
+.footer_wrapper{
+    
+  height: 77px;
+  background-color: #2D303A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.footer_wrapper p{
+
+  padding: 0px 0px 0px 42px;
+  margin: 0;
+  color: #666D89;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.15px;
+}
+
+.footer_social{
+
+  padding: 5px 35px 0px 0px;
+}
+
+.footer_social img{
+
+  width: 34px;
+  height: 35px;
+  margin-right: 3px;
+
+}
